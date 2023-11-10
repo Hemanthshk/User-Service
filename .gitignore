@@ -1,0 +1,74 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Spring Boot specific
+/target/
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Tool Suite (STS)
+.sts4/
+
+# Eclipse
+.settings/
+
+# Maven
+log/
+logs/
+release/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+
+# Application Properties (Include if necessary)
+# Include application.properties if it's required in your project
+# application.properties
+
+# Additional exclusions for build directories in source code
+!/src/main/target/
+!/src/test/target/
